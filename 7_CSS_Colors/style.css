@@ -1,0 +1,17 @@
+h1 {
+    color: blueviolet;
+    background-color: lightgray;
+}
+
+h2 {
+    color: rgb(255, 99, 71);
+    /* color: rgba(255,0, 0, 0, 0.5); */
+}
+
+h3 {
+    color: #32cd32;
+}
+
+h4 {
+    color: hsl(308, 100%, 50%);
+}
