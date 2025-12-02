@@ -1,0 +1,38 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+p {
+    width: 10em;
+    /* Relative to font size */
+    height: 4em;
+    background-color: lightyellow;
+}
+
+section {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+section>div {
+    width: 50%;
+    /* Relative to size of parent element */
+    height: 50%;
+    background-color: lightcoral;
+}
+
+span {
+    font-size: 2rem;
+    /* Relative to root element's font size */
+    color: darkblue;
+}
+
+article {
+    width: 50vw;
+    /* Relative to viewport width */
+    height: 50vh;
+    background-color: lightgray;
+}
