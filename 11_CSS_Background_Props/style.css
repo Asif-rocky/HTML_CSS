@@ -1,0 +1,9 @@
+div {
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(../Images/luffy-round-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
