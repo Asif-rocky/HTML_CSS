@@ -1,0 +1,41 @@
+.container {
+  background-color: rgb(75, 72, 72);
+  width: 90%;
+  height: 600px;
+}
+
+/* With relative position it will not leave its space */
+.div1 {
+  background: orange;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 200px;
+}
+
+/* With absolute position it will leave its space */
+.div2 {
+  background: turquoise;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 100px;
+}
+
+/* With fixed position it will stay in the same place even on scroll */
+.div3 {
+  background: violet;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  top: 250px;
+}
+
+/* With sticky position it will stick to the defined position when scrolled to it */
+.div4 {
+  background: lightgreen;
+  width: 150px;
+  height: 150px;
+  position: sticky;
+  top: 420px;
+}
