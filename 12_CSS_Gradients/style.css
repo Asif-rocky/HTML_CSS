@@ -1,0 +1,26 @@
+#div1 {
+  background: linear-gradient(red, orange);
+  /* background: linear-gradient(
+    (rgba(255, 0, 0, 0.399), rgba(255, 166, 0, 0.399))
+  ); */
+  height: 25vh;
+}
+
+#div2 {
+  background: linear-gradient(to right, violet, green);
+  height: 25vh;
+}
+
+#div3 {
+  background: radial-gradient(yellow, blue);
+  height: 15vh;
+}
+#div4 {
+  background: radial-gradient(circle, yellow, blue);
+  height: 15vh;
+}
+
+#div5 {
+  background: radial-gradient(circle at top left, yellow, blue);
+  height: 15vh;
+}
