@@ -1,0 +1,18 @@
+.link:link {
+  color: red;
+  text-decoration: none;
+}
+
+.visited:visited {
+  color: sandybrown;
+}
+
+.hover:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.active:active {
+  color: teal;
+  text-decoration: none;
+}
