@@ -1,0 +1,19 @@
+.parent {
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: orange;
+  width: 100px;
+  height: 100px;
+  background: teal;
+}
+
+.children {
+  position: relative;
+  left: 100px;
+
+  /* Using below css will inherit above width, height and background */
+  /* background: inherit;
+  width: inherit;
+  height: inherit; */
+}
