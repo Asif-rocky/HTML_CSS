@@ -1,0 +1,32 @@
+* {
+  margin-bottom: 10px;
+}
+
+.class-one {
+  color: blue;
+}
+
+#id-one {
+  color: green;
+  font-size: large;
+}
+
+div.text {
+  color: teal;
+}
+
+div p {
+  color: orange;
+}
+
+div > p {
+  color: red;
+}
+
+div + p {
+  color: purple;
+}
+
+a[href^="https"] {
+  color: brown;
+}
