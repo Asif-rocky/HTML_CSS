@@ -1,0 +1,9 @@
+#div1 {
+  background: linear-gradient(red, orange);
+  height: 25vh;
+  /* filter: blur(4px); */
+  /* filter: brightness(150%); */
+  /* filter: contrast(20%); */
+  /* filter: grayscale(100%); */
+  filter: saturate(50%);
+}
