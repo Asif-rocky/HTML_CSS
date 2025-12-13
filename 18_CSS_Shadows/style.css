@@ -1,0 +1,11 @@
+div {
+  background: rgb(105, 105, 240);
+  width: 200px;
+  height: 200px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+p {
+  color: teal;
+  text-shadow: 2px 2px 4px red;
+}
