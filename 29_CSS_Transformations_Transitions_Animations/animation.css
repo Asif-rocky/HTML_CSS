@@ -1,0 +1,48 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Animation */
+.container > div {
+  width: 300px;
+  height: 300px;
+  background-color: darkblue;
+  animation-name: InAndOut;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes InAndOut {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Moving div left & right alternately for infinite time */
+/* Used from & to properties here */
+
+/* .container > div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: move 2s infinite alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200px);
+  }
+} */
