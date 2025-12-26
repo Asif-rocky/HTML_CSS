@@ -1,0 +1,28 @@
+body {
+  background: coral;
+}
+
+/* Media screen means screen devices */
+/* @media screen {
+  body {
+    background: lightblue;
+  }
+} */
+
+@media print {
+  body {
+    background: lightgreen;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background: lightyellow;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  body {
+    background: lime;
+  }
+}
