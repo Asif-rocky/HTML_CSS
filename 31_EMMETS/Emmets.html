@@ -1,0 +1,149 @@
+<!-- Basic HTML Boilerplate -->
+<!-- ! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+
+<!-- Creating HTML Elements -->
+<!-- h1{Hello World}	 -->
+<h1>Hello World</h1>
+
+<!-- p{This is a paragraph}	 -->
+<p>This is a paragraph</p>
+
+<!-- a{Click me}	 -->
+<a href="">Click me</a>
+
+<!-- Nesting Elements -->
+<!-- ul>li*3 -->
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
+<!-- nav>ul>li*3>a{Link $} -->
+<nav>
+  <ul>
+    <li><a href="">Link 1</a></li>
+    <li><a href="">Link 2</a></li>
+    <li><a href="">Link 3</a></li>
+  </ul>
+</nav>
+
+<!-- Using ID and Classes -->
+<!-- div#main	 -->
+<div id="main"></div>
+
+<!-- div.container	 -->
+<div class="container"></div>
+
+<!-- section.hero.banner	 -->
+<section class="hero banner"></section>
+
+<!-- Advanced Emmet Cheat Sheet -->
+<!-- Multiplication (*) -->
+<!-- div*5 -->
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+<!-- Sibling Combinator (+) -->
+<!-- h1{Header}+p{This is a paragraph} -->
+<h1>Header</h1>
+<p>This is a paragraph</p>
+
+<!-- Numbering ($) -->
+<!-- $ helps auto-increment numbers inside elements. -->
+<!-- ul>li.item$*3 -->
+<ul>
+  <li class="item1"></li>
+  <li class="item2"></li>
+  <li class="item3"></li>
+</ul>
+
+<!-- Child Combinator (>) -->
+<!-- nav>ul>li*2>a{Menu $} -->
+<nav>
+  <ul>
+    <li><a href="">Menu 1</a></li>
+    <li><a href="">Menu 2</a></li>
+  </ul>
+</nav>
+
+<!-- Grouping (()) -->
+<!-- (div>h2{Title})+(div>p{Description}) -->
+<div>
+  <h2>Title</h2>
+</div>
+<div>
+  <p>Description</p>
+</div>
+
+<!-- Attribute Addition ([attr=value]) -->
+<!-- a[href="https://example.com"][target="_blank"]{Visit Example} -->
+<a href="https://example.com" target="_blank">Visit Example</a>
+
+<!-- Moving upper levels by carrot  -->
+<!-- div>header>nav>ul>li*3>a{Link $}^p{This is a paragraph} -->
+<div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="">Link 1</a></li>
+        <li><a href="">Link 2</a></li>
+        <li><a href="">Link 3</a></li>
+      </ul>
+    </nav>
+  </header>
+  <p>This is a paragraph</p>
+</div>
+
+<!-- CSS Emmet Cheat Sheet -->
+
+<!-- Basic Properties -->
+<!-- w100	 -->
+width: 100px;
+
+<!-- h50	 -->
+height: 50px;
+
+<!-- m20	 -->
+margin: 20px;
+
+<!-- p10	 -->
+padding: 10px;
+
+<!-- Text and Font Properties -->
+<!-- fs16	 -->
+font-size: 16px;
+
+<!-- fw700	 -->
+font-weight: 700;
+
+<!-- c#333	 -->
+color: #333;
+
+<!-- bg#f4f4f4	 -->
+background-color: #f4f4f4;
+
+<!-- Flexbox Shortcuts -->
+<!-- d:f	 -->
+display: flex;
+
+<!-- fd:c	 -->
+flex-direction: column;
+
+<!-- ai:c	 -->
+align-items: center;
+
+<!-- jc:sb	 -->
+justify-content: space-between;
