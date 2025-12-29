@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+
+:root {
+  --main-color: #deab5f;
+  --primary-color: #312e2e;
+}
+
+/* Utility CSS */
+
+button {
+  background: var(--main-color);
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #100e0f;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 15px;
+}
+
+li {
+  display: inline;
+  margin-left: 40px;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li a:hover {
+  border-bottom: 2px solid var(--main-color);
+}
+
+.header {
+  background: url("Images/pexels-nao-triponez-129207.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+
+.main-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  position: absolute;
+  top: 10rem;
+  word-spacing: 10px;
+}
+
+.primary-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  position: absolute;
+  bottom: 6rem;
+  word-spacing: 10px;
+}
+
+.main-btn {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 1rem;
+}
+
+/* Story CSS */
+
+#our-story {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.story-image,
+.story-content {
+  flex: 1;
+}
+
+.title-style {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.story-content p {
+  max-width: 500px;
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 20px;
+  margin: 20px 0;
+}
+
+/* Perfect Place CSS */
+
+#perfect-place {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+}
+
+.place-content,
+.place-image {
+  flex: 1;
+}
+
+.place-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.place-content p {
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 20px;
+  margin: 20px 0;
+}
+
+.place-image img {
+  width: 400px;
+  transform: translateX(100px);
+}
+
+/* Products CSS */
+.title-three {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+}
+
+.product-card {
+  background: #2a2a2a;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-image img {
+  width: 150px;
+}
+
+.product-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.product-card p {
+  color: #fff;
+}
+
+/* Footer CSS */
+
+hr {
+  margin-bottom: 20px;
+  border-color: #deab5f;
+  width: 500px;
+  margin: 0 auto;
+}
+
+footer {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  flex: 1 1 50%;
+  gap: 20px;
+  margin: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.footer-container .heading-info {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.footer-container p {
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.footer-container .heading-info span {
+  color: var(--main-color);
+}
+
+.para {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 20px;
+  line-height: 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  .main-heading,
+  .primary-heading {
+    font-size: 2.5rem;
+  }
+
+  .title-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #our-story .title,
+  #perfect-place .place-title {
+    font-size: 2rem;
+  }
+
+  #our-story,
+  #perfect-place,
+  #products {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .story-image,
+  .story-content,
+  .place-content,
+  .place-image,
+  .product-card {
+    width: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
